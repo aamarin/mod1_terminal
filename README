@@ -1,3 +1,10 @@
 Usage:
 
 ./scaffold.sh <directory name>
+- Creates a new directory name, inits git and creates empty .gitignore & README.
+
+./logscan.sh <search pattern> <path/to/file>
+- Searches and summarizes a log for specific errors
+
+./deploy.sh
+- Sets up env variables and run tests for logscan.sh
